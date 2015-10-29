@@ -14,6 +14,8 @@
 		3385322D1BE0C32300458750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3385322C1BE0C32300458750 /* Images.xcassets */; };
 		338532301BE0C32300458750 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3385322E1BE0C32300458750 /* LaunchScreen.xib */; };
 		3385323C1BE0C32300458750 /* AlertManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3385323B1BE0C32300458750 /* AlertManagerTests.m */; };
+		338532471BE0C39100458750 /* UIAlertController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 338532461BE0C39100458750 /* UIAlertController+AlertView.m */; };
+		338532501BE0C9D300458750 /* UIAlertView+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3385324F1BE0C9D300458750 /* UIAlertView+AlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		338532351BE0C32300458750 /* AlertManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3385323A1BE0C32300458750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3385323B1BE0C32300458750 /* AlertManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertManagerTests.m; sourceTree = "<group>"; };
+		338532451BE0C39100458750 /* UIAlertController+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+AlertView.h"; sourceTree = "<group>"; };
+		338532461BE0C39100458750 /* UIAlertController+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+AlertView.m"; sourceTree = "<group>"; };
+		3385324E1BE0C9D300458750 /* UIAlertView+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AlertView.h"; sourceTree = "<group>"; };
+		3385324F1BE0C9D300458750 /* UIAlertView+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AlertView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		3385321E1BE0C32300458750 /* AlertManager */ = {
 			isa = PBXGroup;
 			children = (
+				338532451BE0C39100458750 /* UIAlertController+AlertView.h */,
+				338532461BE0C39100458750 /* UIAlertController+AlertView.m */,
+				3385324E1BE0C9D300458750 /* UIAlertView+AlertView.h */,
+				3385324F1BE0C9D300458750 /* UIAlertView+AlertView.m */,
 				338532231BE0C32300458750 /* AppDelegate.h */,
 				338532241BE0C32300458750 /* AppDelegate.m */,
 				338532261BE0C32300458750 /* ViewController.h */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338532471BE0C39100458750 /* UIAlertController+AlertView.m in Sources */,
+				338532501BE0C9D300458750 /* UIAlertView+AlertView.m in Sources */,
 				338532281BE0C32300458750 /* ViewController.m in Sources */,
 				338532251BE0C32300458750 /* AppDelegate.m in Sources */,
 				338532221BE0C32300458750 /* main.m in Sources */,
@@ -418,6 +430,7 @@
 				338532411BE0C32300458750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338532421BE0C32300458750 /* Build configuration list for PBXNativeTarget "AlertManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				338532441BE0C32300458750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
