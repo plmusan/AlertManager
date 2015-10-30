@@ -16,6 +16,7 @@
 		3385323C1BE0C32300458750 /* AlertManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3385323B1BE0C32300458750 /* AlertManagerTests.m */; };
 		338532471BE0C39100458750 /* UIAlertController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 338532461BE0C39100458750 /* UIAlertController+AlertView.m */; };
 		338532501BE0C9D300458750 /* UIAlertView+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3385324F1BE0C9D300458750 /* UIAlertView+AlertView.m */; };
+		338E82501BE1C23100D177AD /* NSNull+NSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E824F1BE1C23100D177AD /* NSNull+NSNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		338532461BE0C39100458750 /* UIAlertController+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+AlertView.m"; sourceTree = "<group>"; };
 		3385324E1BE0C9D300458750 /* UIAlertView+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AlertView.h"; sourceTree = "<group>"; };
 		3385324F1BE0C9D300458750 /* UIAlertView+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AlertView.m"; sourceTree = "<group>"; };
+		338E824E1BE1C23100D177AD /* NSNull+NSNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+NSNumber.h"; sourceTree = "<group>"; };
+		338E824F1BE1C23100D177AD /* NSNull+NSNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+NSNumber.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				3385322C1BE0C32300458750 /* Images.xcassets */,
 				3385322E1BE0C32300458750 /* LaunchScreen.xib */,
 				3385321F1BE0C32300458750 /* Supporting Files */,
+				338E824E1BE1C23100D177AD /* NSNull+NSNumber.h */,
+				338E824F1BE1C23100D177AD /* NSNull+NSNumber.m */,
 			);
 			path = AlertManager;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 				338532281BE0C32300458750 /* ViewController.m in Sources */,
 				338532251BE0C32300458750 /* AppDelegate.m in Sources */,
 				338532221BE0C32300458750 /* main.m in Sources */,
+				338E82501BE1C23100D177AD /* NSNull+NSNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

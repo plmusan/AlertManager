@@ -51,8 +51,9 @@ typedef void (^UIAlertControllerAlertViewResult)(NSString *clickButtonTitle, NSI
 
 @end
 
-
 @interface UIViewController (AlertView)
+
 + (instancetype)currentViewController;
+
 @end
 
